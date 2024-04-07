@@ -1,14 +1,13 @@
 ---
 title: Frontend test post
 taxonomy:
-    doc_category: frontend, tech
+    category: frontend, tech
 ---
-
-
 ## Administration Page
 
 - After activation, the plugin's configuration is accessible under Settings -> Advanced Post Navigator
 - The plugin settings can configured separately under each tab.
+- 
 
 ## FAQs
 
