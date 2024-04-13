@@ -1,11 +1,7 @@
 ---
 title: '作自己的腦內偵探 —— 利用 PDCA 的概念，見證每天進步 1% 的自己！'
 post_date: '2021-08-14'
-
-# menu_order: 1
-
 post_status: publish
-
 post_excerpt: '嗨，我是 Mujing ，今天要講的跟技術比較沒有直接關係，我想要跟大家分享一個平常工作時可以逐步優化自己工作流程的方法，這個方法叫做 PDCA 筆記，最近剛好在研究。'
 featured_image: ./images/peak-mind/peak-mind.jpg
 taxonomy:
