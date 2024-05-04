@@ -25,7 +25,7 @@ summary: "這是我參加六角全馬鐵人挑戰的第二週，在比賽的一�
 
 Hexo 是一套可以快速幫你建置個人部落格的工具，在官方提供的[頁面](https://hexo.io/themes/)你可以找到很多別人做好的部落格模板，並直接套用到自己的專案。
 
-![Theme](./images/hexo-github-page/theme.png)
+![Theme](/_images/hexo-github-page/theme.png)
 
 首先讓我們先把 hexo 的建置工具裝到系統內，使用以下指令：
 
@@ -47,7 +47,7 @@ Hexo 是一套可以快速幫你建置個人部落格的工具，在官方提供
 
 沒錯，這樣一來在本地就可以看見即時的變更囉，很方便吧！
 
-![hexo-local](./images/hexo-github-page/hexo-local.png)
+![hexo-local](/_images/hexo-github-page/hexo-local.png)
 
 ## Hexo 專案結構
 
@@ -60,12 +60,12 @@ Hexo 是一套可以快速幫你建置個人部落格的工具，在官方提供
       hexo new [Scaffold Name]  [Article Name]
   ```
 
-  ![hexo-scaffold](./images/hexo-github-page/hexo-scaffold.png)
+  ![hexo-scaffold](/_images/hexo-github-page/hexo-scaffold.png)
 
 - **source** : 存放部落格文章原始檔案， Hexo 內的文章通常以 Markdonw 來表示內容，而 Markdown 在很多地方都通用，非常方便。
 - **themes** : Hexo 官網可以選擇許多別人做好的主題，在官網找到喜歡的主題後，就可以下載並放到這個資料夾，然後記得在根目錄的 `_config.yml` 檔案裡的 theme 設定改為對應的主題名（資料夾名稱） ，以這個範例來說就是 landscape ，而對應的主題資料夾裡面則包含了外觀相關的原始碼（如 HTML / CSS / JS)，建議在必要的時候再去修改這些原始碼，否則盡量修改對應主題資料夾裡面的 `_config.yml` 檔案（與根目錄的同名設定檔不同）會比較好。
 
-![hexo-folder](./images/hexo-github-page/hexo-folder.png)
+![hexo-folder](/_images/hexo-github-page/hexo-folder.png)
 
 ## Github Page
 
@@ -79,11 +79,11 @@ Hexo 是一套可以快速幫你建置個人部落格的工具，在官方提供
         \<username\>.github.io
     ```
 
-![create-github-page](./images/hexo-github-page/create-github-page.png)
+![create-github-page](/_images/hexo-github-page/create-github-page.png)
 
 然後就會得的一個新的 Repository ，待會我們 Github Page 就會是以這個 Repository 的內容為主來做對外顯示。
 
-![github-page-empty](./images/hexo-github-page/github-page-empty.png)
+![github-page-empty](/_images/hexo-github-page/github-page-empty.png)
 
 其實剛剛輸入的 Repository 名稱 `<username>.gtihub.io` 就會是你個人 Github Page 的網址，可以直接透過瀏覽器輸入網址找到，但因為目前還是空的，所以還不會有東西，我們先在電腦本地將這份 Repository clone 下來 :
 
@@ -93,11 +93,11 @@ Hexo 是一套可以快速幫你建置個人部落格的工具，在官方提供
 
 並新增 `index.html` 檔案做個測試，因為 Github 預設會去尋找這個檔名的檔案作為進入點。
 
-![github_page_index](./images/hexo-github-page/github_page_index.png)
+![github_page_index](/_images/hexo-github-page/github_page_index.png)
 
 新增完成後只要再用 `git push` 推回剛剛的 Repository 上，就會有 index.html 檔案，應該就可以從你的個人 Gtihub Page 網址看到了（如果沒有看到再來問我）。
 
-![github_page_init](./images/hexo-github-page/github_page_init.png)
+![github_page_init](/_images/hexo-github-page/github_page_init.png)
 
 ## 將 Hexo 專案部署到 Github Page 上
 
@@ -105,7 +105,7 @@ Hexo 是一套可以快速幫你建置個人部落格的工具，在官方提供
 
 首先找到 `_config.yml` 這個檔案，然後在 `deploy` 這個設定下輸入你對應的 Github Page 的 Repo 位置，並把 `type` 寫為 `git` ，就完成基本設置了：
 
-![hexo_deploy_config](./images/hexo-github-page/hexo_deploy_config.png)
+![hexo_deploy_config](/_images/hexo-github-page/hexo_deploy_config.png)
 
 然後在部落格專案目錄底下裝上官方提供的 Git 部署套件 `hexo-deployer-git`：
 
