@@ -7,7 +7,7 @@ date: '2021-08-01'
 summary: '好久不見。各位最近過得如何呢 ? 是不是又往自己的目標前進了一點 ? 一段時間沒有寫文章了，由於轉換工作環境的緣故，自從三月以來，這是第一次可以空出時間好好寫下一些東西。'
 ---
 
-![Heading Image](./images/a-learning-chance-heading.png)
+![Heading Image](/_images/working/a-learning-chance-heading.png)
 
 好久不見。各位最近過得如何呢 ? 是不是又往自己的目標前進了一點 ? 一段時間沒有寫文章了，由於轉換工作環境的緣故，自從三月以來，這是第一次可以空出時間好好寫下一些東西。
 
