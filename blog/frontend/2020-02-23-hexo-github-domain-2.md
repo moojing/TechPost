@@ -1,5 +1,5 @@
 ---
-title: 個人技術站一把罩！部落格建置大全（二）- 將 Github Page 串上自己的域名
+title: "個人技術站一把罩！部落格建置大全（二）- 將 Github Page 串上自己的域名"
 post_date: '2020-02-23'
 # menu_order: 1
 post_status: publish
