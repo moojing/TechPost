@@ -1,9 +1,9 @@
 ---
-title: 2022 年我該如何成為前端工程師？
+title: "2022 年我該如何成為前端工程師？"
 post_date: '2022-01-16'
 # menu_order: 1
 post_status: publish
-post_excerpt: 嗨！不知不覺又過了一年！不知道大家 2021 這一年過得如何？最近開始有聽到幾個朋友也想要試著學習前端開發，剛好也看到了這一篇在講前端開發者所需要技術的整理，簡單節錄一下一起分享給有需要的讀者們。
+post_excerpt: "嗨！不知不覺又過了一年！不知道大家 2021 這一年過得如何？最近開始有聽到幾個朋友也想要試著學習前端開發，剛好也看到了這一篇在講前端開發者所需要技術的整理，簡單節錄一下一起分享給有需要的讀者們。"
 featured_image: "/_images/frontend/become-a-frontend-2022/heading.jpeg"
 taxonomy:
     category: ["working"]
