@@ -1,15 +1,20 @@
 ---
 title: 初探 Regex 正規表達式
-date: '2019-02-12'
-images: []
-tags: [frontend, javascript]
-layout: PostLayout
-summary: "正規表達式英文全名 Regular Expression，
+post_date: '2019-02-12'
+
+# menu_order: 1
+
+post_status: publish
+post_excerpt: 正規表達式英文全名 Regular Expression，
 想必一定曾是每個工程師的惡夢，在新手眼裡彷彿精靈語一樣神秘又難親近，
-Regex 是一把複雜卻威力強大的武器。"
+Regex 是一把複雜卻威力強大的武器。
+featured_image: "/_images/frontend/javascript-regex/javascript-regex.png"
+taxonomy:
+    category: ["frontend"]
+    post_tag: ["github"]
 ---
 
-![](https:/./images.unsplash.com/photo-1504639725590-34d0984388bd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1934&q=80)
+![Regex Heading](/_images/frontend/javascript-regex/javascript-regex.png)
 
 正規表達式英文全名 Regular Expression，
 想必一定曾是每個工程師的惡夢，在新手眼裡彷彿精靈語一樣神秘又難親近，

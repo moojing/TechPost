@@ -1,16 +1,18 @@
 ---
-slug: become-a-frontend-2022
 title: 2022 年我該如何成為前端工程師？
-date: '2022-01-16'
-tags: [frontend, javascript]
-images: []
-layout: PostLayout
-summary: '嗨！不知不覺又過了一年！不知道大家 2021 這一年過得如何？最近開始有聽到幾個朋友也想要試著學習前端開發，剛好也看到了這一篇在講前端開發者所需要技術的整理，簡單節錄一下一起分享給有需要的讀者們。'
+post_date: '2022-01-16'
+# menu_order: 1
+post_status: publish
+post_excerpt: 嗨！不知不覺又過了一年！不知道大家 2021 這一年過得如何？最近開始有聽到幾個朋友也想要試著學習前端開發，剛好也看到了這一篇在講前端開發者所需要技術的整理，簡單節錄一下一起分享給有需要的讀者們。
+featured_image: "/_images/frontend/become-a-frontend-2022/heading.jpeg"
+taxonomy:
+    category: ["working"]
+    post_tag: ["book-reflection"]
 ---
 
 嗨！不知不覺又過了一年！不知道大家 2021 這一年過得如何？最近開始有聽到幾個朋友也想要試著學習前端開發，剛好也看到了這一篇在講前端開發者所需要技術的整理，簡單節錄一下一起分享給有需要的讀者們。
 
-![heading](./images/become-a-frontend-2022/heading.jpeg)
+![heading](/_images/frontend/become-a-frontend-2022/heading.jpeg)
 
 接下來的分享基本上以這篇文章的內容為主，會以我的觀點節錄一些重點來跟大家分享，所以如果想看第一手資訊或是習慣看英文的朋友也可以點進去直接閱讀。
 
@@ -154,4 +156,4 @@ GraphQL 的出現就是為了解決這個問題，它也已經準備好要推動
 
 ## 參考文章
 
-- https://medium.com/hackernoon/the-2019-web-developer-roadmap-ab89ac3c380e
+- <https://medium.com/hackernoon/the-2019-web-developer-roadmap-ab89ac3c380e>

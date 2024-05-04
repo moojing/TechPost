@@ -1,10 +1,14 @@
 ---
 title: 個人技術站一把罩！部落格建置大全（二）- 將 Github Page 串上自己的域名
-date: '2020-02-23'
-tags: [javascript, frontend]
-layout: PostLayout
-summary: "上週提到了使用 Hexo 這個工具來架設個人部落格，並放到自己 Github Page 上的方法。
-這次我們要來看看怎麼把架好部落格的 Github Page ，串上自己擁有的域名( ex. blabla.com ) "
+post_date: '2020-02-23'
+# menu_order: 1
+post_status: publish
+post_excerpt: 上週提到了使用 Hexo 這個工具來架設個人部落格，並放到自己 Github Page 上的方法。
+這次我們要來看看怎麼把架好部落格的 Github Page ，串上自己擁有的域名( ex. blabla.com ) 
+featured_image: "/_images/hexo-github-page-2/gandi-domains.png"
+taxonomy:
+    category: ["frontend"]
+    post_tag: ["github"]
 ---
 
 上週提到了使用 Hexo 這個工具來架設個人部落格，並放到自己 Github Page 上的方法。這次我們要來看看怎麼把架好部落格的 Github Page ，串上自己擁有的域名( ex. blabla.com ) ，所以在這篇文章內將會對 DNS 與相關設定有一定部分的講解跟介紹。
@@ -69,26 +73,26 @@ DNS 相關的設定其實有很多，我們就是透過這些設定來告訴 DNS
 
 ## 方案二：CNAME 搭配 ALIAS 設定
 
-設定 CNAME 的目的是因為有時候我們希望使用者是透過加上 www 前綴（[www.cowboybebop.space](http://www.cowboybebop.space/) ) 的網站域名進入我們的網站，在這種情況下只要用戶不記得或不知道要輸入 www. 前綴，就會沒辦法順利找到我們的網站應用，所以我們必須要將這些用戶重新導向到我們想要的域名。
+設定 CNAME 的目的是因為有時候我們希望使用者是透過加上 www 前綴（[www.cowboybebop.space](http://www.cowboybebop.space/) ) 的網站域名進入我們的網站，在這種情況下只要用戶不記得或不知道要輸入 <www>. 前綴，就會沒辦法順利找到我們的網站應用，所以我們必須要將這些用戶重新導向到我們想要的域名。
 
-通常會在域名前面加上 www. 當作網站位置是為了提醒用戶，這是一個公開的網站，藉此提升體驗。但其實加或不加，並不影響網站的功能性，只要有對應正確的設定即可，因為加上了 www. 前綴的域名，相對於主域名來說只是子域名而已，只是站在 SEO 或是追蹤流量的角度，一般還是建議兩種方式選一種（要不要加上 www.) 並且統一使用，否則 Google 爬蟲會將這兩種域名視為兩個不同的網站。
+通常會在域名前面加上 <www>. 當作網站位置是為了提醒用戶，這是一個公開的網站，藉此提升體驗。但其實加或不加，並不影響網站的功能性，只要有對應正確的設定即可，因為加上了 <www>. 前綴的域名，相對於主域名來說只是子域名而已，只是站在 SEO 或是追蹤流量的角度，一般還是建議兩種方式選一種（要不要加上 <www>.) 並且統一使用，否則 Google 爬蟲會將這兩種域名視為兩個不同的網站。
 
-在方案二中，我想要以將原來沒有 www. 前綴的主域名統一導向到有 www. 前綴的子域名的方式來完成：
+在方案二中，我想要以將原來沒有 <www>. 前綴的主域名統一導向到有 <www>. 前綴的子域名的方式來完成：
 
 ```
     cowboybebop.space/    -----自動導向到------->    www.cowboybebop.space/
 ```
 
-就像上面提到的，ALIAS 記錄可以用在主域名的別名設定，這個設定剛好可以達成上面提到的導向到具有 www. 前綴域名的效果。因此我們要這麼做：
+就像上面提到的，ALIAS 記錄可以用在主域名的別名設定，這個設定剛好可以達成上面提到的導向到具有 <www>. 前綴域名的效果。因此我們要這麼做：
 
-1. 將主域名的 ALIAS 設為加上 www. 前綴的子域名
-2. 將加上 www. 前綴的子域名， CNAME 設為 Github Page 的 URL
+1. 將主域名的 ALIAS 設為加上 <www>. 前綴的子域名
+2. 將加上 <www>. 前綴的子域名， CNAME 設為 Github Page 的 URL
 
 提供下圖做為參考，只要看第一跟最後一筆紀錄就可以了，其他是系統預設的設定。
 
 ![gandi-cname-alias](/_images/hexo-github-page-2/gandi-cname-alias.png)
 
-透過這樣的方式，我們就能夠完美的將有 www. 與沒有 www. 前綴的域名都導向到 Github Page 頁面囉！而且統一使用的會是 **www.cowboybebop.space** ，也符合前面提到的建議使用方式！
+透過這樣的方式，我們就能夠完美的將有 <www>. 與沒有 <www>. 前綴的域名都導向到 Github Page 頁面囉！而且統一使用的會是 **<www.cowboybebop.space>** ，也符合前面提到的建議使用方式！
 
 ## Github Page 設定
 

@@ -1,12 +1,13 @@
 ---
 title: 零知識證明的原理- 阿里巴巴與山洞秘門的咒語
-date: '2022-09-11'
-tags: [blockchain]
-draft: false
-summary: 今天要為大家解說區塊鏈中一個被大眾注目已久、但目前暫時尚未出現一個主流應用的「零知識證明」的基本原理。區塊鏈發明以來，就為人們帶來了三個傳統金融世界沒有的突破性的改變：「去中心化」、「不可竄改」、「公開透明」；而其中「公開透明」雖然能夠為某些團體或是 DAO 組織宣示公平，但是卻沒有保障個人在鏈上活動的隱私。因此為了解決這個問題，在區塊鏈上利用「零知識證明」的想法就被提出了。「零知識證明」的概念是指在不暴露任何相關機密資訊的前提下，向某人證明該件事情的正確性。
-images: [static/_images/alibaba-zk-proof/heading.png]
-layout: PostLayout
-canonicalUrl:
+post_date: '2022-09-11'
+# menu_order: 1
+post_status: publish
+post_excerpt: 今天要為大家解說區塊鏈中一個被大眾注目已久、但目前暫時尚未出現一個主流應用的「零知識證明」的基本原理。區塊鏈發明以來，就為人們帶來了三個傳統金融世界沒有的突破性的改變：「去中心化」、「不可竄改」、「公開透明」；而其中「公開透明」雖然能夠為某些團體或是 DAO 組織宣示公平，但是卻沒有保障個人在鏈上活動的隱私。因此為了解決這個問題，在區塊鏈上利用「零知識證明」的想法就被提出了。「零知識證明」的概念是指在不暴露任何相關機密資訊的前提下，向某人證明該件事情的正確性。
+featured_image: "/_images/frontend/javascript-regex/javascript-regex.png"
+taxonomy:
+    category: ["blockchain"]
+    post_tag: ["zero-knowledge"]
 ---
 
 ![Heading Image](/_images/alibaba-zk-proof/heading.png)
