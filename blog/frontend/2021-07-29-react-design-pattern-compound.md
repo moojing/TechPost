@@ -2,7 +2,7 @@
 title: React 設計模式 - 複合元件
 # menu_order: 1
 post_status: publish
-post_excerpt: 一般來說，在進行正式的專案開發，製作可以重複被使用的元件時，常常也必須考慮到元件的彈性、與可維護性。因為我們不知道在未來，這個元件會因為產品的需求而產生怎麼樣的調整，所以最低程度地保持元件的可擴充性就可以讓開發者在這個時候比較輕鬆的以最小限度的影響來達成想要的修改。
+post_excerpt: "一般來說，在進行正式的專案開發，製作可以重複被使用的元件時，常常也必須考慮到元件的彈性、與可維護性。因為我們不知道在未來，這個元件會因為產品的需求而產生怎麼樣的調整，所以最低程度地保持元件的可擴充性就可以讓開發者在這個時候比較輕鬆的以最小限度的影響來達成想要的修改。"
 featured_image: "/_images/react-design-pattern-compound/react-design-pattern-example1.png"
 taxonomy:
     category: ["frontend"]

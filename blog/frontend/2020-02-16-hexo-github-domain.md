@@ -5,8 +5,7 @@ post_date: '2020-02-16'
 # menu_order: 1
 
 post_status: publish
-post_excerpt: 這是我參加六角全馬鐵人挑戰的第二週，在比賽的一開始，就讓我來分享如何在 Github Page 上面架設自己的個人頁面，並串上自己購買的網域名稱（如果有的話）。
-相信各位工程師們多少都會聽過或看過其他工程師們使用當作自己的部落格，對其他人分享自己經歷及技術，或是成長過程中領悟到的見解。
+post_excerpt: "這是我參加六角全馬鐵人挑戰的第二週，在比賽的一開始，就讓我來分享如何在 Github Page 上面架設自己的個人頁面，並串上自己購買的網域名稱（如果有的話）。相信各位工程師們多少都會聽過或看過其他工程師們使用當作自己的部落格，對其他人分享自己經歷及技術，或是成長過程中領悟到的見解。"
 featured_image: "/_images/hexo-github-page/theme.png"
 taxonomy:
     category: ["frontend"]
