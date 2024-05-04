@@ -10,12 +10,24 @@ layout: PostLayout
 
 ## Outline
 
+- [Outline](#outline)
 - [package.json 是什麼？](#packagejson-是什麼)
-
+  - [`name`](#name)
+  - [`version`](#version)
+  - [`main`](#main)
+  - [`scripts`](#scripts)
 - [來用 Webpack 動手試試看](#來用-webpack-動手試試看)
+  - [Webpack 打包指令、與設定檔](#webpack-打包指令與設定檔)
+  - [Webpack 的 `entry`](#webpack-的-entry)
+  - [Webpack 的 `output`](#webpack-的-output)
+  - [處理 React 程式碼](#處理-react-程式碼)
+  - [處理 SCSS 程式碼](#處理-scss-程式碼)
+  - [執行打包指令](#執行打包指令)
+  - [模組內 package.json 的設定](#模組內-packagejson-的設定)
 - [試著在其他專案引入模組](#試著在其他專案引入模組)
 - [為什麼打包成 umd 還是可以被其他專案引用？](#為什麼打包成-umd-還是可以被其他專案引用)
 - [利用 Webpack 將程式碼轉換成 ESM 模組系統](#利用-webpack-將程式碼轉換成-esm-模組系統)
+- [參考資源](#參考資源)
 
 ## package.json 是什麼？
 
