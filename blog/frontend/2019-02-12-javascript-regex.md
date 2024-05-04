@@ -1,5 +1,5 @@
 ---
-title: 初探 Regex 正規表達式
+title: "初探 Regex 正規表達式"
 post_date: '2019-02-12'
 # menu_order: 1
 post_status: publish
@@ -7,7 +7,7 @@ post_excerpt: "正規表達式英文全名 Regular Expression，想必一定曾�
 featured_image: "/_images/frontend/javascript-regex/javascript-regex.jpg"
 taxonomy:
     category: ["frontend"]
-    post_tag: ["github"]
+    post_tag: ["regex"]
 ---
 
 ![Regex Heading](/_images/frontend/javascript-regex/javascript-regex.jpg)

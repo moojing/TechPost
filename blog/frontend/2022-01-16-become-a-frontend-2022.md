@@ -74,7 +74,7 @@ JavaScript 演變至今也已經從前端領域跨足到網站後端領域，現
 
 - [The Complete React Guide (with Hooks)](https://click.linksynergy.com/deeplink?id=JVFxdTr9V80&mid=39197&murl=https%3A%2F%2Fwww.udemy.com%2Fcourse%2Freact-the-complete-guide-incl-redux%2F)
 
-![The Complete React Guide](./images/become-a-frontend-2022/react-the-complete-guide.png)
+![The Complete React Guide](/_images/frontend/become-a-frontend-2022/react-the-complete-guide.png)
 
 當然前端框架除了 React ，也還有 Vue 跟 Angular 等等強大的框架 ，但是我（作者）還是會推薦使用 React，畢竟使用它的公司還是比較多。
 
@@ -88,7 +88,7 @@ RWD 的中文翻譯是「自適應網頁設計」，它是一種態度概念，�
 
 - [Build Responsive Websites with HTML5 and CSS3 | Udemy](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-1qaPlHtQ9zvpA_Eutx3fbw&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
 
-![Build Responsive Websites with HTML5 and CSS3](./images/become-a-frontend-2022/rwd-udemy.png)
+![Build Responsive Websites with HTML5 and CSS3](/_images/frontend/become-a-frontend-2022/rwd-udemy.png)
 
 ## 6. NPM (Node Package Manager)
 
@@ -100,7 +100,7 @@ NPM 必須透過指令介面工具（ Command Line Tool) 才能夠被使用，�
 
 - [The Complete Node.js Developer Course (3rd Edition) | Udemy](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-nM1_YCLPBwwmuHo.GREafw&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
 
-![The Complete Node.js Developer Course](./images/become-a-frontend-2022/node-js.jpg)
+![The Complete Node.js Developer Course](/_images/frontend/become-a-frontend-2022/node-js.jpg)
 
 ## 7. VSCode
 
@@ -112,7 +112,7 @@ IDE 之所以這麼方便就是因為他有很多好用的套件來讓你的開�
 
 - [Visual Studio Code Course | Pluralsight](https://www.pluralsight.com/courses/visual-studio-code?clickid=QRATdxyiwxyIUBE3FF19sQqbUkG3qZ1Be20RV40&irgwc=1&mpid=1193463&aid=7010a000001xAKZAA2&utm_medium=digital_affiliate&utm_campaign=1193463&utm_source=impactradius&exp=1)
 
-![Visual Studio Code Course](./images/become-a-frontend-2022/vscode.png)
+![Visual Studio Code Course](/_images/frontend/become-a-frontend-2022/vscode.png)
 
 ## 8. Chrome Developer Tools
 
@@ -121,7 +121,7 @@ Developer Tool 中文稱為「瀏覽器開發者工具」，是另外一個在�
 透過開發者工具不只可以讓你看到 HTML 、 CSS 和 JavaScript 的原始碼，甚至也能透過改變 HTML、CSS 的數值來即時地看到想要嘗試的改變。這個工具強烈的好好學習，因為上面除了基本功能，也有很多更深入更仔細的的瀏覽器相關工具，這邊也推薦一堂課程給你：
 
 - [Devtools Pro: Beginner to Expert / Chrome Developer Tools | Udemy](https://www.udemy.com/course/master-google-chrome-developer-tools/?ranMID=39197&ranEAID=JVFxdTr9V80&ranSiteID=JVFxdTr9V80-WLM399f0gJHP0ucPClf7jw&LSNPUBID=JVFxdTr9V80&utm_source=aff-campaign&utm_medium=udemyads)
-  ![Devtools Pro: Beginner to Expert](./images/become-a-frontend-2022/chrome-dev-tool.jpg)
+![Devtools Pro: Beginner to Expert](/_images/frontend/become-a-frontend-2022/chrome-dev-tool.jpg)
 
 ## 9. Postman
 
@@ -130,7 +130,7 @@ Developer Tool 中文稱為「瀏覽器開發者工具」，是另外一個在�
 Postman 目前有提供 Chrome 套件和桌面版本，你都可以安裝來自己試試看，如果需要課程的話可以參考：
 
 - [Postman: The Complete Guide – REST API Testing | Udemy](https://www.udemy.com/course/postman-the-complete-guide/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-laGaD0qjsTHvx19S9aDkwQ&utm_medium=udemyads&utm_source=aff-campaign)
-  ![Postman: The Complete Guide](./images/become-a-frontend-2022/postman.png)
+  ![Postman: The Complete Guide](/_images/frontend/become-a-frontend-2022/postman.png)
 
 ## 10. GraphQL
 
